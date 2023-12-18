@@ -32,7 +32,7 @@ public class Email {
         //System.out.println("Your email is " + email + "\n");
     }
 
-    // Ask for the department
+    // Ask for the departments
     private String setDepartment() {
         System.out.print("DEPARTMENT CODES\n1 for Sales\n2 for Development\n3 for Accounting\n0 for None\n\nEnter department code: \n");
         Scanner in = new Scanner(System.in);
