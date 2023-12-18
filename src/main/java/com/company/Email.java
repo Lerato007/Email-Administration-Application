@@ -11,7 +11,7 @@ public class Email {
     private int mailboxCapacity = 500;
     private int defaultPasswordLength = 10;
     private String alternativeEmail;
-    private String companySuffix = "company.com";
+    private String companySuffix = "starrfx.com";
 
     // Constructor to receive the first and last name
     public Email(String firstName, String lastName) {
@@ -34,7 +34,7 @@ public class Email {
 
     // Ask for the departments
     private String setDepartment() {
-        System.out.print("DEPARTMENT CODES\n1 for Sales\n2 for Development\n3 for Accounting\n0 for None\n\nEnter department code: \n");
+        System.out.print("New Worker: " + firstName + ". Department Codes:\n1 for Sales\n2 for Development\n3 for Accounting\n0 for None\n\nEnter department code: \n");
         Scanner in = new Scanner(System.in);
         int depChoice = in.nextInt();
         if (depChoice  == 1) {
